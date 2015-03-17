@@ -6,7 +6,7 @@
  * Time: 下午6:55
  */
 
-class Lib_template {
+class Template {
     public $templateName=null;
     public $data=array();
     public $outPut=null;
