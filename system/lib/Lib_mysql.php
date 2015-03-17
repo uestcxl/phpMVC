@@ -111,6 +111,10 @@ final class Mysql {
         }
     }
 
+    public function showDatabases(){
+        $this->query("SHOW DATABASES");
+    }
+
     /**
      * @param $errorInfo
      * @param $dbName
