@@ -2,22 +2,11 @@
 
 代码目录结构：
 
-``
-Framework
-
     |-model
-
     |-view
-
     |-controller
-
     |-config
-
     |-system
-
     |-lib
-
     |-config.php
-
     |-index.php
-``
