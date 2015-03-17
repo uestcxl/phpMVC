@@ -1,9 +1,11 @@
 <?php
 
-    /*
-     * 框架入口文件
-     * @author  xl
-     * @version 0.1
+    /**
+     * 框架基类app.php
+     * Created by PhpStorm.
+     * User: xl
+     * Date: 15-3-17
+     * Time: 上午10:24
      */
 
     /*引入基类*/

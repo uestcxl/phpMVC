@@ -15,9 +15,9 @@
         'DB_CHARSET'    =>  'utf8'
     );
 
-    /*类库配置*/
+    /*系统类库配置*/
     $CONFIG['SYSTEM']['LIB'] = array(
-
+        'LIB_PRE'       =>  'Lib',
     );
 
     /*路由配置*/
