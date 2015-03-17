@@ -7,6 +7,8 @@
     |-controller    控制器文件 Class.php
     |-config    配置文件
     |-system    系统文件
-    |-lib       类库文件
+    |----lib    系统类库文件
+    |----core   系统核心类文件
+    |-lib       自定义类库文件
     |-config.php    主配置文件
     |-index.php     入口文件
