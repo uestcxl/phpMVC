@@ -29,8 +29,8 @@
     /*Application基类的实现*/
     final class Application{
 
-        private static $_lib = null;
-        private static $_config = null;
+        public static $_lib = null;
+        public static $_config = null;
 
         /*
          * 初始化创建应用
