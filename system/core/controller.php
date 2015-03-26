@@ -8,6 +8,7 @@
 
 class Controller {
     public function __construct(){
+        //设置http响应头信息
         header('Content-type:text/html;charset=utf-8');
     }
 

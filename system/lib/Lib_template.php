@@ -24,11 +24,15 @@ class Template {
     public function fetch(){
         $viewFile = VIEW_PATH.'/'.$this->templateName.'.php';
         if(file_exists($viewFile)){
+            //提取传递的变量
             extract($this->data);
+            //开启缓冲区
             ob_start();
             include $viewFile;
             $content=ob_get_contents();
             ob_end_clean();
+
+            //将数据存储在outPut中
             $this->outPut=$content;
         }
         else{
